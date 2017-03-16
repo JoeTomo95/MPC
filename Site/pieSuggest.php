@@ -12,7 +12,6 @@
 	if (isset($_POST["name"]) && isset($_POST["lastname"]) && isset($_POST["email"]) && isset($_POST["message"])) {
 
 		$content  = "Name: "      . $_POST["name"]    . "\r\n";
-		$content .= "Last Name: " . $_POST["lastname"]   . "\r\n";
 		$content .= "Email: "     . $_POST["email"]   . "\r\n";
 		$content .= "Message: "   . "\r\n" . $_POST["message"];
 
