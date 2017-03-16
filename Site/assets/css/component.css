@@ -33,6 +33,10 @@
     color: black;
 }
 
+#widget-logo {
+    color: red;
+}
+
 .btn:after {
     content: '';
     position: absolute;
